@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumentasi Bahasa Pemrograman - Halaman 2</title>
+    <style>body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        pre {
+            background: #222;
+            color: #0f0;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .code-title {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dokumentasi Bahasa Pemrograman - Halaman 2</h1>
+
+        <!-- 14. Dart -->
+        <h2>14. Dart</h2>
+        <p><b>Penjelasan:</b> Dart adalah bahasa pemrograman yang dikembangkan oleh Google dan digunakan terutama untuk pengembangan aplikasi Flutter.</p>
+        <div class="code-title">Hello, World! dalam Dart:</div>
+        <pre>
+void main() {
+    print("Hello, World!");
+}
+        </pre>
+
+        <div class="code-title">Looping dan Kondisi dalam Dart:</div>
+        <pre>
+void main() {
+    for (int i = 0; i < 5; i++) {
+        if (i % 2 == 0) {
+            print("$i adalah bilangan genap");
+        } else {
+            print("$i adalah bilangan ganjil");
+        }
+    }
+}
+        </pre>
+
+        <div class="code-title">Fungsi dalam Dart:</div>
+        <pre>
+String sapa(String nama) {
+    return "Halo, $nama!";
+}
+
+void main() {
+    print(sapa("Budi"));
+}
+        </pre>
+
+        <!-- 15. Haskell -->
+        <h2>15. Haskell</h2>
+        <p><b>Penjelasan:</b> Haskell adalah bahasa pemrograman fungsional yang terkenal dengan sistem tipe yang kuat dan imutabilitas.</p>
+        <div class="code-title">Hello, World! dalam Haskell:</div>
+        <pre>
+main :: IO ()
+main = putStrLn "Hello, World!"
+        </pre>
+
+        <div class="code-title">Looping dan Kondisi dalam Haskell:</div>
+        <pre>
+evenOdd :: Int -> String
+evenOdd n = if even n then show n ++ " adalah genap" else show n ++ " adalah ganjil"
+
+main :: IO ()
+main = mapM_ (putStrLn . evenOdd) [0..4]
+        </pre>
+
+        <div class="code-title">Fungsi dalam Haskell:</div>
+        <pre>
+sapa :: String -> String
+sapa nama = "Halo, " ++ nama ++ "!"
+
+main :: IO ()
+main = putStrLn (sapa "Budi")
+        </pre>
+
+        <!-- 16. SQL -->
+        <h2>16. SQL</h2>
+        <p><b>Penjelasan:</b> SQL (Structured Query Language) adalah bahasa yang digunakan untuk mengelola dan memanipulasi basis data relasional.</p>
+        <div class="code-title">Membuat Tabel dalam SQL:</div>
+        <pre>
+CREATE TABLE pengguna (
+    id INT PRIMARY KEY,
+    nama VARCHAR(100),
+    email VARCHAR(100)
+);
+        </pre>
+
+        <div class="code-title">Menambahkan Data dalam SQL:</div>
+        <pre>
+INSERT INTO pengguna (id, nama, email) VALUES (1, 'Budi', 'budi@example.com');
+        </pre>
+
+        <div class="code-title">Mengambil Data dalam SQL:</div>
+        <pre>
+SELECT * FROM pengguna;
+        </pre>
+
+        <!-- 17. Bash -->
+        <h2>17. Bash</h2>
+        <p><b>Penjelasan:</b> Bash adalah bahasa skrip yang digunakan dalam sistem operasi berbasis Unix dan Linux untuk mengotomatisasi tugas.</p>
+        <div class="code-title">Hello, World! dalam Bash:</div>
+        <pre>
+#!/bin/bash
+echo "Hello, World!"
+        </pre>
+
+        <div class="code-title">Looping dan Kondisi dalam Bash:</div>
+        <pre>
+for i in {0..4}; do
+    if ((i % 2 == 0)); then
+        echo "$i adalah bilangan genap"
+    else
+        echo "$i adalah bilangan ganjil"
+    fi
+done
+        </pre>
+
+        <div class="code-title">Fungsi dalam Bash:</div>
+        <pre>
+sapa() {
+    echo "Halo, $1!"
+}
+
+sapa "Budi"
+        </pre>
+
+        <!-- Navigasi -->
+        <div class="navigation">
+            <a href="Page1.html">← Halaman 1<a>
+        </div>
+
+    </div>
+
+</body>
+            </html>
